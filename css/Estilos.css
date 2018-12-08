@@ -1,9 +1,32 @@
-* {
-margin: 10px
+.container {
+margin: 10px;
+display: flex;
 
 }
 
 footer {
-    background:  #454241 
+    background:  #454241;
+    width: 100%;
+	padding:20px;
 
+    display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+    
+
+}
+
+footer .patrocinadores {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: beige;
+    flex-direction: row;
+    
+}
+
+footer .logo_vinalium img {
+
+    flex-grow: 1;
+    width: 100px;
 }
