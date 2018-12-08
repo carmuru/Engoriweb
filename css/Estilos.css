@@ -1,15 +1,25 @@
+/* CONSIDERACIONES GENERALES */
+
 * {
 	margin: 0;
-	padding: 5px;
-	box-sizing: border-box;
+	padding: 0px;
+    box-sizing: border-box;
+    
+    
+    /*overflow: hidden;*/
 }
 
+
+/* DEFINICION PARA EL CONTAINER FLEX */
 
 .container {
 
 width:100%;
-max-width:1000px;
-margin:auto;
+max-width: auto;
+margin: auto;
+background: linear-gradient(to bottom, #b92b27, #313565C0);
+background: linear-gradient(to top, #313565C0, #b92b27);
+
 
 display: flex;
 flex-direction: row;
@@ -20,9 +30,8 @@ flex-wrap: wrap;
 /* DEFINICION DE ESTILOS PARA EL HEADER */
 
 header {
-    background-color: #454241;
     width: 100%;
-    padding: 20px;
+    padding: 5px;
     
     display: flex;
     justify-content: space-between;
@@ -33,7 +42,7 @@ header {
 }
 
 header .logo_header img {
-    width: 60px;
+    width: 500px;
     vertical-align: top;
 
 }
@@ -42,13 +51,13 @@ header .logo_header img {
 /* DEFINICION DE ESTILOS PARA EL FOOTER */
 
 footer {
-    background:  #454241;
     width: 100%;
 	padding:20px;
 
     display: flex;
 	flex-wrap:wrap;
     flex-direction: row;
+    align-items: center;
     justify-content:space-between;
     
 
@@ -64,7 +73,7 @@ footer .patrocinadores {
 
 footer .logo_vinalium img {
 
-    width: 100px;
+    width: 300px;
 }
 
 footer .social img {
