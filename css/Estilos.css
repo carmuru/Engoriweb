@@ -1,8 +1,44 @@
+* {
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+
 .container {
-margin: 10px;
+
+width:100%;
+max-width:1000px;
+margin:auto;
+
 display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 
 }
+
+/* DEFINICION DE ESTILOS PARA EL HEADER */
+
+header {
+    background-color: #454241;
+    width: 100%;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+header .logo_gorila img {
+    width: 60px;
+    vertical-align: top;
+
+}
+
+
 /* DEFINICION DE ESTILOS PARA EL FOOTER */
 
 footer {
