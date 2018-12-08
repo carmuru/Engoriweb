@@ -3,6 +3,7 @@ margin: 10px;
 display: flex;
 
 }
+/* DEFINICION DE ESTILOS PARA EL FOOTER */
 
 footer {
     background:  #454241;
@@ -11,7 +12,8 @@ footer {
 
     display: flex;
 	flex-wrap:wrap;
-	justify-content:space-between;
+    flex-direction: row;
+    justify-content:space-between;
     
 
 }
@@ -21,12 +23,17 @@ footer .patrocinadores {
     font-style: normal;
     font-size: 15px;
     color: beige;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 
 footer .logo_vinalium img {
 
-    flex-grow: 1;
     width: 100px;
+}
+
+footer .social img {
+
+    width: 50px;
+    margin-left: 20px;
+
 }
