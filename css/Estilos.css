@@ -58,7 +58,7 @@ header .logo_header img {
 footer {
     width: 100%;
     padding:15px;
-   position: absolute;
+    position: absolute;
     bottom: 0;
     max-height: auto;
     
@@ -103,3 +103,41 @@ footer .social img {
     margin-top: 20px;
 
 }
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+	/*.container {
+		flex-direction:column;
+	}*/
+ 
+	/*header {
+		flex-direction:column;
+		padding:0;
+	}*/
+ 
+		
+    header .logo_header img {
+        margin:20px 0;
+        width: 100px;
+        vertical-align: top;
+    }
+ 
+	/*aside {
+		flex-direction:row;
+		flex:0;
+	}
+ 
+	aside .widget {
+		flex-grow:1;
+	}*/
+}
+ 
+/*@media screen and (max-width: 600px) {
+	aside {
+		flex-direction:column;
+	}
+ 
+	footer {
+		justify-content:space-around;
+	}*/
