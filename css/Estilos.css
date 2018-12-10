@@ -4,13 +4,15 @@
 	margin: 0;
 	padding: 0px;
     box-sizing: border-box;
-    overflow: hidden;
+    
 }
 
-/*body {
-    background...image...lo que sea
-    background-size:cover;
-}*/
+body {
+    
+    background-color: #32363d;
+   
+        
+}
 
 /* DEFINICION PARA EL CONTAINER FLEX */
 
@@ -19,8 +21,8 @@
 width:100%;
 max-width: auto;
 margin: auto;
-background: linear-gradient(to bottom, #b92b27, #313565C0);
-background: linear-gradient(to top, #313565C0, #b92b27);
+/*background: linear-gradient(to bottom, #b92b27, #313565C0);
+background: linear-gradient(to top, #313565C0, #b92b27);*/
 
 
 display: flex;
@@ -45,7 +47,7 @@ header {
 }
 
 header .logo_header img {
-    width: 500px;
+    width: 400px;
     vertical-align: top;
 
 }
@@ -55,10 +57,11 @@ header .logo_header img {
 
 footer {
     width: 100%;
-    padding:20px;
-    position: absolute;
+    padding:15px;
+   position: absolute;
     bottom: 0;
-    background-color: #313565C0;
+    max-height: auto;
+    
 
     display: flex;
 	flex-wrap:wrap;
@@ -70,32 +73,33 @@ footer {
 }
 
 footer .patrocinadores {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
     font-style: normal;
     font-size: 15px;
-    color: beige;
+    color: rgb(255, 255, 255);
     
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: left;
 }
 
 footer .logo_vinalium img {
 
+    margin-left: 5px;
     width: 300px;
 }
 
 footer .social {
         
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    flex-flow: column wrap;
+    align-items: bottom;
 
 }
 
 footer .social img {
 
     width: 40px;
-    margin-left: 20px;
+    margin-top: 20px;
 
 }
