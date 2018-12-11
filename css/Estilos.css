@@ -47,7 +47,7 @@ header {
 }
 
 header .logo_header img {
-    width: 200px;
+    width: 300px;
     vertical-align: top;
 
 }
@@ -58,7 +58,9 @@ header .logo_header img {
 footer {
     width: 100%;
     padding:15px;
-        
+    position: absolute;
+    bottom: 0px;
+     
 
     display: flex;
 	flex-wrap:wrap;
@@ -91,6 +93,16 @@ footer .social {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+   
+}
+
+footer .social .Gorila_Footer {
+
+width: 200px;
+z-index: -1;
+position: absolute;
+right: 0px;
+
 
 }
 
@@ -98,6 +110,9 @@ footer .social img {
 
     width: 40px;
     margin-left: 20px;
+    margin-top: 5px;
+    z-index: 1;
+    
 
 }
 
