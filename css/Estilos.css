@@ -47,7 +47,7 @@ header {
 }
 
 header .logo_header img {
-    width: 400px;
+    width: 200px;
     vertical-align: top;
 
 }
@@ -58,10 +58,7 @@ header .logo_header img {
 footer {
     width: 100%;
     padding:15px;
-    position: absolute;
-    bottom: 0;
-    max-height: auto;
-    
+        
 
     display: flex;
 	flex-wrap:wrap;
@@ -75,7 +72,7 @@ footer {
 footer .patrocinadores {
     font-family: 'Arial Narrow Bold', sans-serif;
     font-style: normal;
-    font-size: 15px;
+    font-size: 10px;
     color: rgb(255, 255, 255);
     
     display: flex;
@@ -86,41 +83,41 @@ footer .patrocinadores {
 footer .logo_vinalium img {
 
     margin-left: 5px;
-    width: 300px;
+    width: 150px;
 }
 
 footer .social {
         
     display: flex;
-    flex-flow: column wrap;
-    align-items: bottom;
+    flex-flow: row wrap;
+    align-items: center;
 
 }
 
 footer .social img {
 
     width: 40px;
-    margin-top: 20px;
+    margin-left: 20px;
 
 }
 
 /* Responsive */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
 	/*.container {
 		flex-direction:column;
 	}*/
  
-	/*header {
-		flex-direction:column;
+	header {
+        flex-direction:column;
+        flex-flow: wrap;
 		padding:0;
-	}*/
+	}
  
 		
     header .logo_header img {
-        margin:20px 0;
-        width: 100px;
-        vertical-align: top;
+       width: 100px;
+        
     }
  
 	/*aside {
