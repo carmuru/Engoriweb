@@ -134,10 +134,10 @@ footer .social img {
 
 /* Responsive */
 
-@media screen and (max-width: 750px) {
-	/*.container {
+@media screen and (max-width: 480px) {
+	.container {
 		flex-direction:column;
-	}*/
+	}
  
 	header {
         flex-direction:column;
@@ -147,10 +147,18 @@ footer .social img {
  
 		
     header .logo_header img {
-       width: 100px;
+       width: 200px;
         
     }
  
+ 
+	footer {
+        justify-content:space-around;
+        flex: 50% 50%;
+    }
+    
+
+
 	/*aside {
 		flex-direction:row;
 		flex:0;
