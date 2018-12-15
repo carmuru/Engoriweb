@@ -15,6 +15,7 @@ font-family: 'Roboto', sans-serif;*/
 	padding: 0px;
     box-sizing: border-box;
     
+    
 }
 
 body {
@@ -27,6 +28,10 @@ body {
 main {
 margin-top: 100px;
 
+}
+
+.names img {
+    margin-right: 100px;
 }
 
 main h2{

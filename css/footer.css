@@ -1,6 +1,9 @@
 footer {
+    background-color: #32363d;
+    padding-left: 10px;
+    
     width: 100%;
-    padding:15px;
+    height: 115px;
     margin-top: 50px;
     position: absolute;
     bottom: 0px;
@@ -22,6 +25,7 @@ footer .patrocinadores {
     font-size: 10px;
     color: rgb(255, 255, 255);
     
+    
     display: flex;
     flex-flow: column wrap;
     align-items: left;
@@ -29,23 +33,35 @@ footer .patrocinadores {
 
 footer .logo_vinalium img {
 
-    margin-top: 5px;
-    margin-left: 5px;
     width: 120px;
+      
+    
 }
 
 footer .social {
         
     display: flex;
     flex-flow: row wrap;
+    float: left;
     align-items: center;
-   
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+}
+
+
+footer .social a img {
+
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    
 }
 
 footer .gorila img{
 
 width: 200px;
-z-index: -1;
 position: absolute;
 right: 0px;
 bottom: 15px;
@@ -54,12 +70,4 @@ bottom: 15px;
 
 
 
-footer .social a img {
-
-    float: left;
-    width: 40px;
-    margin-left: 20px;
-    margin-bottom: 7px;
-    z-index: 100;
-}
 
