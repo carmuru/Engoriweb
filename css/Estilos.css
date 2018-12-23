@@ -29,10 +29,21 @@ main {
 margin-top: 120px;
 margin-left: 15px;
 width: 70%;
+padding: 5px;
 background-color: #c0cd35;
 border: whitesmoke solid 2px;
 
 }
+
+
+article {
+
+margin: 10px 0px;
+padding: 5px;
+border: #32363d solid 1px;
+
+}
+
 
 
 main h2{
@@ -44,4 +55,28 @@ main h2{
 }
 
 
+main h3{
 
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #32363d;
+    text-align: center;
+    font-size: 10px;
+}
+
+main article h4 {
+
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: #32363d;
+    font-size: 8px;
+}
+
+
+main article {
+
+    font-family: 'Roboto', sans-serif;
+    color: #32363d;
+    text-align: center;
+    font-size: 8px;
+
+}
